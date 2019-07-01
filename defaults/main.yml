@@ -1,4 +1,4 @@
 ---
-# defaults file for nginx
-service_name: ngnix
+# defaults file for mariadb
+service_name: mariadb-server
 ...
