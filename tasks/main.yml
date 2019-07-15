@@ -1,7 +1,16 @@
 ---
 #tasks file for mariadb
 
-- name: "This is mariadb"
-  shell: echo
+- name: "Install the mariadb-server package"
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - mariadb-server  
+
+# setting: mysql_secure_installation
+# setting: MariaDB [(none)]> GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+# setting: MariaDB [(none)]> FLUSH PRIVILEGES;    
 
 ...
