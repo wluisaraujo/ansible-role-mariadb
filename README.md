@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-MariaDB-blue.svg)](https://galaxy.ansible.com/wluisaraujo/mariadb) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-nginx)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-MariaDB-blue.svg)](https://galaxy.ansible.com/wluisaraujo/mariadb) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-mariadb.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-mariadb)
 
 ---
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [MariaDB](https://mariadb.org)
@@ -40,7 +40,7 @@ Example Playbook
     - name: value
   roles:
     - mariadb
-...    
+...
 ```
 
 ----------------

@@ -1,4 +1,4 @@
 ---
 # defaults file for mariadb
-service_name: mariadb-server
+service_name: mariadb
 ...
