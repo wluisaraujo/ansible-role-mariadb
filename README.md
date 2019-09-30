@@ -19,6 +19,7 @@ Installation
 
 ```console
 vagrant@localhost:~$ ansible-galaxy install wluisaraujo.mariadb
+vagrant@localhost:~$ ansible-galaxy install -r wluisaraujo.mariadb/requirements.txt
 ```
 
 Role Variables
